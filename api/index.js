@@ -1,5 +1,8 @@
 const app = require("express")();
+const cors = require("cors");
 const { v4 } = require("uuid");
+
+app.use(cors());
 
 app.get("/api", (req, res) => {
   const path = `/api/item/${v4()}`;
