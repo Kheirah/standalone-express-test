@@ -2,7 +2,7 @@ const express = require("express");
 const postgres = require("@vercel/postgres");
 const cors = require("cors");
 /* const { v4 } = require("uuid"); */
-const user = require("./user.route");
+const user = require("./routes/user.route");
 
 const app = express();
 
