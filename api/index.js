@@ -3,6 +3,7 @@ const cors = require("cors");
 const { v4 } = require("uuid");
 
 app.use(cors());
+app.use(express.json());
 
 app.get("/api", (req, res) => {
   const path = `/api/item/${v4()}`;
