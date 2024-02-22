@@ -8,7 +8,7 @@
         { "key": "Access-Control-Allow-Origin", "value": "*" },
         {
           "key": "Access-Control-Allow-Methods",
-          "value": "GET,OPTIONS,DELETE,POST,PUT,PATCH"
+          "value": "GET,OPTIONS,DELETE,POST,PUT"
         },
         {
           "key": "Access-Control-Allow-Headers",
